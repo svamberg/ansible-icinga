@@ -3,6 +3,7 @@
 Usage:
 
 * apt-get install git ansible -t stretch-backports
+* curl https://packages.grafana.com/gpg.key | sudo apt-key add -
 * git clone https://github.com/Majlen/ansible-icinga
 * cd ansible-icinga
 * ansible-playbook install.yml
